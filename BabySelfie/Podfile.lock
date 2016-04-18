@@ -1,0 +1,19 @@
+PODS:
+  - CircleSlider (0.2.0)
+  - Firebase (2.5.1)
+  - IQKeyboardManagerSwift (3.3.4)
+  - SwiftLoader (0.2.5)
+
+DEPENDENCIES:
+  - CircleSlider
+  - Firebase (>= 2.5.1)
+  - IQKeyboardManagerSwift (= 3.3.4)
+  - SwiftLoader
+
+SPEC CHECKSUMS:
+  CircleSlider: 66e5bf0059f5feffc954e5666f5286f4a331ebe3
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+  IQKeyboardManagerSwift: 6f2290d093f5269dc07bdae8bc58e968cf9c4738
+  SwiftLoader: 12d7a6f661f5e9a2c9a72003e7dd6162f4ff0cc4
+
+COCOAPODS: 0.39.0
