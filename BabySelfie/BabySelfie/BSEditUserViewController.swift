@@ -17,7 +17,7 @@ class BSEditUserViewController: UIViewController {
     @IBOutlet weak var txtRepNovaSenha: UITextField!
     
     // MARK: Properties
-    let ref = Firebase(url:"https://babyselfie.firebaseio.com/")
+    let ref = Firebase(url:FirebaseUrl)
     
     override func viewDidLoad() {
         super.viewDidLoad()

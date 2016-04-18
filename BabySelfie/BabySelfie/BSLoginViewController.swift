@@ -33,8 +33,8 @@ class BSLoginViewController: BSViewController {
     @IBOutlet weak var posYViewLogin: NSLayoutConstraint!
     
     // MARK: Properties
-    let ref = Firebase(url:"https://babyselfie.firebaseio.com/")
-    let profile = Firebase(url:"https://babyselfie.firebaseio.com/profiles")
+    let ref = Firebase(url:FirebaseUrl)
+    let profile = Firebase(url:FirebaseUrl + "profiles")
 
     var openApp:Bool = false
     

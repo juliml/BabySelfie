@@ -19,7 +19,7 @@ class BSMenuViewController: UIViewController, UITableViewDelegate, UITableViewDa
     var array = NSMutableArray()
     
     // MARK: Properties
-    let ref = Firebase(url:"https://babyselfie.firebaseio.com/")
+    let ref = Firebase(url:FirebaseUrl)
     
     override func viewDidLoad() {
         super.viewDidLoad()
