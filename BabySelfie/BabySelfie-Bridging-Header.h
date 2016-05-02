@@ -12,3 +12,4 @@
 
 #import <Firebase/Firebase.h> 
 #import "CEMovieMaker.h"
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
