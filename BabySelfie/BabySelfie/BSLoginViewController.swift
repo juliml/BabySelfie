@@ -62,10 +62,10 @@ class BSLoginViewController: BSViewController {
         
         self.openApp = false
         
-        let userDefaults = NSUserDefaults.standardUserDefaults()
-        if (userDefaults.boolForKey("login")) {
+        /*let userDefaults = NSUserDefaults.standardUserDefaults()
+        if (userDefaults.boolForKey("login")) {*/
             self.openNextView()
-        }
+        //}
         
     }
     

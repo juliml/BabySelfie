@@ -42,12 +42,18 @@ class BSMenuViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let userDefaults = NSUserDefaults.standardUserDefaults()
         if (userDefaults.boolForKey("login")) {
             
-            self.nameUser.text = userDefaults.valueForKey("userName") as? String
-            let picture = userDefaults.valueForKey("userPhoto") as? String
+            let name = userDefaults.valueForKey("userName") as? String
+            if(name != nil) {
+                self.nameUser.text = name
+            }
             
-            let url = NSURL(string: picture!)
-            let data = NSData(contentsOfURL: url!)
-            self.photoUser.image = UIImage(data: data!)
+            
+            let picture = userDefaults.valueForKey("userPhoto") as? String
+            if (picture != nil) {
+                let url = NSURL(string: picture!)
+                let data = NSData(contentsOfURL: url!)
+                self.photoUser.image = UIImage(data: data!)
+            }
             
         }
         
