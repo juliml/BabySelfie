@@ -19,6 +19,8 @@ class BSGalleryViewController: BSViewController, UICollectionViewDataSource, UIC
 
         gallery!.backgroundColor = UIColor.clearColor()
         gallery!.registerClass(BSPhotoCollectionViewCell.self, forCellWithReuseIdentifier: "PhotoCollectionViewCell")
+        gallery!.delaysContentTouches = false
+        gallery!.allowsSelection = false
         
         BSPhotoAlbum.sharedInstance.getAllPhotos { images in
             self.images = images.reverse()
@@ -42,6 +44,8 @@ class BSGalleryViewController: BSViewController, UICollectionViewDataSource, UIC
         dispatch_async(dispatch_get_main_queue()) {
             cell.imageView?.image = self.images[indexPath.row]
         }
+        
+        cell.selected = true
 
         return cell
     }

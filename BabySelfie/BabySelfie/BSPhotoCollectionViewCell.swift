@@ -26,4 +26,19 @@ class BSPhotoCollectionViewCell: UICollectionViewCell {
         contentView.addSubview(imageView)
     }
     
+    override var selected: Bool {
+        get {
+            return super.selected
+        }
+        set {
+            if newValue {
+                super.selected = true
+                self.imageView.alpha = 1.0
+            } else if newValue == false {
+                super.selected = false
+                self.imageView.alpha = 0.5
+            }
+        }
+    }
+    
 }

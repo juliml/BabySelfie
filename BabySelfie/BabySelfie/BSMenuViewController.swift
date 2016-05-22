@@ -52,7 +52,9 @@ class BSMenuViewController: UIViewController, UITableViewDelegate, UITableViewDa
             if (picture != nil) {
                 let url = NSURL(string: picture!)
                 let data = NSData(contentsOfURL: url!)
-                self.photoUser.image = UIImage(data: data!)
+                if (data != nil){
+                    self.photoUser.image = UIImage(data: data!)
+                }
             }
             
         }
@@ -78,8 +80,9 @@ class BSMenuViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let cell = tableView.dequeueReusableCellWithIdentifier("ItemMenuCell", forIndexPath: indexPath) as! BSItemMenuTableViewCell
         
         let dictionary = self.array[indexPath.row]
-        cell.title.text = dictionary.objectForKey("title") as? String
-        cell.icon.image = UIImage (named: (dictionary.objectForKey("icon") as? String)!)
+        
+        cell.title?.text = dictionary.objectForKey("title") as? String
+        cell.icon?.image = UIImage (named: (dictionary.objectForKey("icon") as? String)!)
         
         cell.backgroundColor = UIColor.clearColor()
         
