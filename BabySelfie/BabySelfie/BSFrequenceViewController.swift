@@ -42,11 +42,18 @@ class BSFrequenceViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         
-        //get frequence
-        /*let userDefaults = NSUserDefaults.standardUserDefaults()
-         if let frequence = userDefaults.valueForKey("frequence") {
-         
-         }*/
+        guard let settings = UIApplication.sharedApplication().currentUserNotificationSettings() else { return }
+        
+        if settings.types == .None {
+            let ac = UIAlertController(title: "Não é possível agendar", message: "Não temos permissão para agendar notificações.", preferredStyle: .Alert)
+            ac.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+            ac.addAction(UIAlertAction(title: "Settings", style: .Default, handler: {(action:UIAlertAction!) in
+               UIApplication.sharedApplication().openURL(NSURL(string: UIApplicationOpenSettingsURLString)!)
+            }))
+            presentViewController(ac, animated: true, completion: nil)
+            return
+        }
+        
     }
 
     private func buildCircleSlider() {
@@ -73,16 +80,17 @@ class BSFrequenceViewController: UIViewController {
 
     @IBAction func saveFrequence(sender: AnyObject) {
         
-        
         guard let settings = UIApplication.sharedApplication().currentUserNotificationSettings() else { return }
         
         if settings.types == .None {
-            let ac = UIAlertController(title: "Não é possível agendar", message: "Ou não temos permissão para agendar notificações, ou nós não pedimos ainda.", preferredStyle: .Alert)
+            let ac = UIAlertController(title: "Não é possível agendar", message: "Não temos permissão para agendar notificações.", preferredStyle: .Alert)
             ac.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+            ac.addAction(UIAlertAction(title: "Settings", style: .Default, handler: {(action:UIAlertAction!) in
+                UIApplication.sharedApplication().openURL(NSURL(string: UIApplicationOpenSettingsURLString)!)
+            }))
             presentViewController(ac, animated: true, completion: nil)
             return
         }
-        
         
         let frequence = self.valueLabel.text
         
@@ -109,8 +117,7 @@ class BSFrequenceViewController: UIViewController {
             presentViewController(ac, animated: true, completion: nil)
             
         }
-        
-        
+ 
         
     }
     
