@@ -82,13 +82,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let dateComponent = NSDateComponents()
         
         let userDefaults = NSUserDefaults.standardUserDefaults()
+        print("aqui")
         if let frequence = userDefaults.valueForKey("frequence") {
             
-            dateComponent.day = 7*(frequence as! NSString).integerValue
+            dateComponent.day = getFrequenceDays(frequence as! String)
             let nextDays = calendar.dateByAddingComponents(dateComponent, toDate: today, options: [])
 
             let notification = UILocalNotification()
             notification.fireDate = nextDays
+            print(nextDays)
             notification.alertBody = "Olá! Vamos tirar uma foto do seu bebê?"
             notification.alertAction = "preparar a foto!"
             notification.soundName = UILocalNotificationDefaultSoundName

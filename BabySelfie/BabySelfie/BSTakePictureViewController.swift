@@ -81,6 +81,9 @@ class BSTakePictureViewController: BSViewController {
         
         if (!self.abriuCamera) {
             self.abriuCamera = true
+            if (previewLayer == nil) {
+                return
+            }
             previewLayer!.frame = previewPhoto.bounds
         }
         
