@@ -27,7 +27,7 @@ class BSFrequenceViewController: UIViewController {
             .ThumbColor(UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)),
             .TrackingColor(UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)),
             .StartAngle(-90),
-            .BarWidth(2),
+            .BarWidth(20),
             .MaxValue(12),
             .MinValue(0)
         ]
@@ -67,12 +67,9 @@ class BSFrequenceViewController: UIViewController {
     func valueChange(sender: CircleSlider) {
         switch sender.tag {
         case 0:
-            self.valueLabel.text = "\(Int(sender.value))"
-            if (Int(sender.value) > 1) {
-                self.descLabel.text = "SEMANAS"
-            } else {
-                self.descLabel.text = "SEMANA"
-            }
+            self.valueLabel.text = getFrequenceValue(sender.value)
+            self.descLabel.text = getFrequenceDesc(sender.value)
+
         default:
             break
         }
@@ -92,31 +89,31 @@ class BSFrequenceViewController: UIViewController {
             return
         }
         
-        let frequence = self.valueLabel.text
+        let frequence = self.valueLabel.text! + self.descLabel.text!;
         
-        if (Int(frequence!) > 0) {
             
-            let userDefaults = NSUserDefaults.standardUserDefaults()
-            userDefaults.setValue(frequence, forKey: "frequence")
-            userDefaults.synchronize()
+        let userDefaults = NSUserDefaults.standardUserDefaults()
+        userDefaults.setValue(frequence, forKey: "frequence")
+        userDefaults.synchronize()
             
-            //cancel all notification
-            UIApplication.sharedApplication().cancelAllLocalNotifications()
+        //cancel all notification
+        UIApplication.sharedApplication().cancelAllLocalNotifications()
             
-            //create new notification
-            let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-            appDelegate.createNotification()
+        //create new notification
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        appDelegate.createNotification()
             
-            let takePicture:BSTakePictureViewController = self.storyboard!.instantiateViewControllerWithIdentifier("viewTakePicture") as! BSTakePictureViewController;
-            self.navigationController?.pushViewController(takePicture, animated: true)
+        let takePicture:BSTakePictureViewController = self.storyboard!.instantiateViewControllerWithIdentifier("viewTakePicture") as! BSTakePictureViewController;
+        self.navigationController?.pushViewController(takePicture, animated: true)
             
-        } else {
-            
-            let ac = UIAlertController(title: "Não é possível agendar", message: "Selecione a frequência das fotos!", preferredStyle: .Alert)
-            ac.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
-            presentViewController(ac, animated: true, completion: nil)
-            
-        }
+        
+//        } else {
+//            
+//            let ac = UIAlertController(title: "Não é possível agendar", message: "Selecione a frequência das fotos!", preferredStyle: .Alert)
+//            ac.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+//            presentViewController(ac, animated: true, completion: nil)
+//            
+//        }
  
         
     }

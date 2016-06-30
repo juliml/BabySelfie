@@ -64,7 +64,7 @@ public class CircleSlider: UIControl {
       if let retValue = self._thumbWidth {
         return retValue
       }
-      return self.barWidth * 6.5
+      return self.barWidth * 1.5
     }
     set {
       self._thumbWidth = newValue
