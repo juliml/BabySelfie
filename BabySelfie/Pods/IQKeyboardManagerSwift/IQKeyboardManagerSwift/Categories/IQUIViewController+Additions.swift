@@ -1,7 +1,7 @@
 //
 //  IQUIViewController+Additions.swift
 // https://github.com/hackiftekhar/IQKeyboardManager
-// Copyright (c) 2013-15 Iftekhar Qurashi.
+// Copyright (c) 2013-16 Iftekhar Qurashi.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -21,7 +21,6 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-import Foundation
 import UIKit
 
 
@@ -32,8 +31,11 @@ public extension UIViewController {
 
     /**
     To set customized distance from keyboard for textField/textView. Can't be less than zero
+     
+     @deprecated    Due to change in core-logic of handling distance between textField and keyboard distance, this layout contraint tweak is no longer needed and things will just work out of the box regardless of constraint pinned with safeArea/layoutGuide/superview
     */
-    @IBOutlet public var IQLayoutGuideConstraint: NSLayoutConstraint? {
+    @available(*,deprecated, message: "Due to change in core-logic of handling distance between textField and keyboard distance, this layout contraint tweak is no longer needed and things will just work out of the box regardless of constraint pinned with safeArea/layoutGuide/superview.")
+    @IBOutlet @objc public var IQLayoutGuideConstraint: NSLayoutConstraint? {
         get {
             
             return objc_getAssociatedObject(self, &kIQLayoutGuideConstraint) as? NSLayoutConstraint

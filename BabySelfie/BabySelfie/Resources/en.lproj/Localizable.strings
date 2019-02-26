@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  BabySelfie
+
+  Created by Juliana Lacerda on 2019-02-25.
+  Copyright © 2019 Juliana Lacerda. All rights reserved.
+*/
+
+"notification_title" = "Prepare the photo!";
+"notification_body" = "Hello! Let's take a picture of your baby?";

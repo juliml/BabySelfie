@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  BabySelfie
+
+  Created by Juliana Lacerda on 2019-02-25.
+  Copyright © 2019 Juliana Lacerda. All rights reserved.
+*/
+
+"notification_title" = "Preparar a foto!";
+"notification_body" = "Olá! Vamos tirar uma foto do seu bebê?";

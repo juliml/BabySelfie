@@ -3,301 +3,163 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B92EB096B91C3D259B0E33C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E364444A177AC57E51A079 /* CoreText.framework */; };
-		47BCC53109769933F1F32B26 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F328C9F66CD8AB051918F4 /* AssetsLibrary.framework */; };
-		68489F6E1CAD9B2B00360E1C /* BSCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68489F6D1CAD9B2B00360E1C /* BSCheckBox.swift */; };
-		68489F701CAD9CB600360E1C /* BSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68489F6F1CAD9CB600360E1C /* BSTextField.swift */; };
-		68489F721CADA11900360E1C /* BSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68489F711CADA11900360E1C /* BSViewController.swift */; };
-		6855A8D01CC160A1004F5E25 /* BSEditUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6855A8CF1CC160A1004F5E25 /* BSEditUserViewController.swift */; };
-		6863D1101CAC0FD60078436F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6863D10F1CAC0FD60078436F /* Images.xcassets */; };
-		686A135A1CAC08FF00C43693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 686A13591CAC08FF00C43693 /* LaunchScreen.storyboard */; };
-		68ACD26A1CAAF78C005859BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACD2691CAAF78C005859BC /* AppDelegate.swift */; };
-		68ACD26F1CAAF78C005859BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68ACD26D1CAAF78C005859BC /* Main.storyboard */; };
-		68ACD2A51CAB04DB005859BC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ACD2A21CAB04DB005859BC /* FBSDKCoreKit.framework */; };
-		68ACD2A61CAB04DB005859BC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ACD2A31CAB04DB005859BC /* FBSDKLoginKit.framework */; };
-		68ACD2A71CAB04DB005859BC /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ACD2A41CAB04DB005859BC /* FBSDKShareKit.framework */; };
-		68ACD2AB1CAB0B9C005859BC /* BSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ACD2AA1CAB0B9C005859BC /* BSLoginViewController.swift */; };
-		68B02B0C1CB6A4BA00810A8B /* BSTakePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B02B0B1CB6A4BA00810A8B /* BSTakePictureViewController.swift */; };
-		68B02B0E1CB7F89300810A8B /* BSPhotoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B02B0D1CB7F89300810A8B /* BSPhotoAlbum.swift */; };
-		68B02B111CB82ADA00810A8B /* BSGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B02B101CB82ADA00810A8B /* BSGalleryViewController.swift */; };
-		68B02B131CB82E0400810A8B /* BSPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B02B121CB82E0400810A8B /* BSPhotoCollectionViewCell.swift */; };
-		68D4FB241CB42396008BD290 /* BSFrequenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D4FB231CB42396008BD290 /* BSFrequenceViewController.swift */; };
-		68E98A1B1CBC1D7A00D83DE7 /* BSMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E98A1A1CBC1D7A00D83DE7 /* BSMenuViewController.swift */; };
-		68E98A1D1CBC1EAB00D83DE7 /* BSItemMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E98A1C1CBC1EAB00D83DE7 /* BSItemMenuTableViewCell.swift */; };
-		68E98A211CBD99C000D83DE7 /* BSVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E98A201CBD99C000D83DE7 /* BSVideoViewController.swift */; };
-		68E98A251CBE86C400D83DE7 /* CEMovieMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E98A241CBE86C400D83DE7 /* CEMovieMaker.m */; };
-		804CFD40EDDCDE293DB6269D /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A30391057A9EF636AD522F /* BuddyBuildSDK.framework */; };
-		8F5294FF020E79E285BA45D6 /* Pods_BabySelfie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9052800EDD382D9D5847B979 /* Pods_BabySelfie.framework */; };
-		B44ADB371D20AA3300E3D054 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44ADB361D20AA3300E3D054 /* Util.swift */; };
-		B5217F16E33415F42EE9311F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75D04A24D1073E8C00AC3EB /* QuartzCore.framework */; };
-		C6FBB980C3B18C4467D275ED /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B80DCF5487CA7FA583E712 /* CoreTelephony.framework */; };
-		E90837C2B3BE9385CE473FCA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D90ECAC74BEE3356ABCE3F /* SystemConfiguration.framework */; };
+		6DEF85547B6CD80A74D509C2 /* Pods_BabySelfie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E440A59F465A30E7C8B65CE /* Pods_BabySelfie.framework */; };
+		B97883832224BD5500674A86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97883822224BD5500674A86 /* AppDelegate.swift */; };
+		B97883882224BD5500674A86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97883862224BD5500674A86 /* Main.storyboard */; };
+		B978838A2224BD5600674A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97883892224BD5600674A86 /* Assets.xcassets */; };
+		B978839A2224C10000674A86 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B97883992224C10000674A86 /* GoogleService-Info.plist */; };
+		B978839E2224C3D600674A86 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B978839D2224C3D600674A86 /* Default-568h@2x.png */; };
+		B97883A02224CA9C00674A86 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978839F2224CA9C00674A86 /* Utils.swift */; };
+		B97883A32224CC9E00674A86 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97883A22224CC9E00674A86 /* LoginViewController.swift */; };
+		B97883A72224CEA400674A86 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B97883A92224CEA400674A86 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03E364444A177AC57E51A079 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		40A30391057A9EF636AD522F /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
-		428D90E62C178830717273B2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F7278329FE3C181544B7FF0 /* Pods-BabySelfie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabySelfie.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabySelfie/Pods-BabySelfie.release.xcconfig"; sourceTree = "<group>"; };
-		68489F6D1CAD9B2B00360E1C /* BSCheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSCheckBox.swift; sourceTree = "<group>"; };
-		68489F6F1CAD9CB600360E1C /* BSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTextField.swift; sourceTree = "<group>"; };
-		68489F711CADA11900360E1C /* BSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSViewController.swift; sourceTree = "<group>"; };
-		6855A8CF1CC160A1004F5E25 /* BSEditUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSEditUserViewController.swift; sourceTree = "<group>"; };
-		6863D10F1CAC0FD60078436F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		686A13591CAC08FF00C43693 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		68ACD2661CAAF78C005859BC /* BabySelfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabySelfie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		68ACD2691CAAF78C005859BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		68ACD26E1CAAF78C005859BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		68ACD2751CAAF78C005859BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68ACD2A21CAB04DB005859BC /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		68ACD2A31CAB04DB005859BC /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		68ACD2A41CAB04DB005859BC /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
-		68ACD2AA1CAB0B9C005859BC /* BSLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSLoginViewController.swift; sourceTree = "<group>"; };
-		68ACD2B11CAB1007005859BC /* BabySelfie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BabySelfie-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		68B02B0B1CB6A4BA00810A8B /* BSTakePictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTakePictureViewController.swift; sourceTree = "<group>"; };
-		68B02B0D1CB7F89300810A8B /* BSPhotoAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSPhotoAlbum.swift; sourceTree = "<group>"; };
-		68B02B101CB82ADA00810A8B /* BSGalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSGalleryViewController.swift; sourceTree = "<group>"; };
-		68B02B121CB82E0400810A8B /* BSPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
-		68D4FB231CB42396008BD290 /* BSFrequenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSFrequenceViewController.swift; sourceTree = "<group>"; };
-		68E98A1A1CBC1D7A00D83DE7 /* BSMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSMenuViewController.swift; sourceTree = "<group>"; };
-		68E98A1C1CBC1EAB00D83DE7 /* BSItemMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSItemMenuTableViewCell.swift; sourceTree = "<group>"; };
-		68E98A201CBD99C000D83DE7 /* BSVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSVideoViewController.swift; sourceTree = "<group>"; };
-		68E98A231CBE86C400D83DE7 /* CEMovieMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEMovieMaker.h; sourceTree = "<group>"; };
-		68E98A241CBE86C400D83DE7 /* CEMovieMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEMovieMaker.m; sourceTree = "<group>"; };
-		6A8B495A6BF0EB2ECBBD4502 /* Pods-BabySelfie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabySelfie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabySelfie/Pods-BabySelfie.debug.xcconfig"; sourceTree = "<group>"; };
-		9052800EDD382D9D5847B979 /* Pods_BabySelfie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabySelfie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92F328C9F66CD8AB051918F4 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		96D90ECAC74BEE3356ABCE3F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		B0B80DCF5487CA7FA583E712 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		B44ADB361D20AA3300E3D054 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
-		E75D04A24D1073E8C00AC3EB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		00DFFC1DEBE3F0C4542FA328 /* Pods-BabySelfie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabySelfie.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabySelfie/Pods-BabySelfie.release.xcconfig"; sourceTree = "<group>"; };
+		5E440A59F465A30E7C8B65CE /* Pods_BabySelfie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabySelfie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D04D620B3C34A13A9D35D27 /* Pods-BabySelfie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabySelfie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabySelfie/Pods-BabySelfie.debug.xcconfig"; sourceTree = "<group>"; };
+		B978837F2224BD5500674A86 /* BabySelfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabySelfie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97883822224BD5500674A86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B97883872224BD5500674A86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B97883892224BD5600674A86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B978838E2224BD5600674A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B97883992224C10000674A86 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B978839D2224C3D600674A86 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../../../../../../Downloads/creation/Media.xcassets/LaunchImage.launchimage/Default-568h@2x.png"; sourceTree = "<group>"; };
+		B978839F2224CA9C00674A86 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B97883A22224CC9E00674A86 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B97883A62224CE7D00674A86 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		B97883A82224CEA400674A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B97883AA2224CEA800674A86 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		68ACD2631CAAF78C005859BC /* Frameworks */ = {
+		B978837C2224BD5500674A86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68ACD2A71CAB04DB005859BC /* FBSDKShareKit.framework in Frameworks */,
-				68ACD2A51CAB04DB005859BC /* FBSDKCoreKit.framework in Frameworks */,
-				68ACD2A61CAB04DB005859BC /* FBSDKLoginKit.framework in Frameworks */,
-				804CFD40EDDCDE293DB6269D /* BuddyBuildSDK.framework in Frameworks */,
-				47BCC53109769933F1F32B26 /* AssetsLibrary.framework in Frameworks */,
-				2B92EB096B91C3D259B0E33C /* CoreText.framework in Frameworks */,
-				C6FBB980C3B18C4467D275ED /* CoreTelephony.framework in Frameworks */,
-				E90837C2B3BE9385CE473FCA /* SystemConfiguration.framework in Frameworks */,
-				B5217F16E33415F42EE9311F /* QuartzCore.framework in Frameworks */,
-				8F5294FF020E79E285BA45D6 /* Pods_BabySelfie.framework in Frameworks */,
+				6DEF85547B6CD80A74D509C2 /* Pods_BabySelfie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B7EAFA42D7BACD304A81387 /* Frameworks */ = {
+		6F0D3EAC495530D3FC66FA03 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				428D90E62C178830717273B2 /* Pods.framework */,
-				40A30391057A9EF636AD522F /* BuddyBuildSDK.framework */,
-				92F328C9F66CD8AB051918F4 /* AssetsLibrary.framework */,
-				03E364444A177AC57E51A079 /* CoreText.framework */,
-				B0B80DCF5487CA7FA583E712 /* CoreTelephony.framework */,
-				96D90ECAC74BEE3356ABCE3F /* SystemConfiguration.framework */,
-				E75D04A24D1073E8C00AC3EB /* QuartzCore.framework */,
-				9052800EDD382D9D5847B979 /* Pods_BabySelfie.framework */,
+				7D04D620B3C34A13A9D35D27 /* Pods-BabySelfie.debug.xcconfig */,
+				00DFFC1DEBE3F0C4542FA328 /* Pods-BabySelfie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74C3ADF5A89AE55661AEA6E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E440A59F465A30E7C8B65CE /* Pods_BabySelfie.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		68489F6C1CAD9B0D00360E1C /* BaseViews */ = {
+		B97883762224BD5500674A86 = {
 			isa = PBXGroup;
 			children = (
-				68489F6D1CAD9B2B00360E1C /* BSCheckBox.swift */,
-				68489F6F1CAD9CB600360E1C /* BSTextField.swift */,
-				68489F711CADA11900360E1C /* BSViewController.swift */,
-			);
-			name = BaseViews;
-			sourceTree = "<group>";
-		};
-		68489F731CADA33700360E1C /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				68ACD2691CAAF78C005859BC /* AppDelegate.swift */,
-			);
-			name = Config;
-			sourceTree = "<group>";
-		};
-		68489F741CADA3D100360E1C /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				68ACD2AA1CAB0B9C005859BC /* BSLoginViewController.swift */,
-				6855A8CF1CC160A1004F5E25 /* BSEditUserViewController.swift */,
-			);
-			name = Login;
-			sourceTree = "<group>";
-		};
-		68ACD25D1CAAF78C005859BC = {
-			isa = PBXGroup;
-			children = (
-				68ACD2A01CAB04BB005859BC /* Dependencies */,
-				68ACD2681CAAF78C005859BC /* BabySelfie */,
-				68ACD2671CAAF78C005859BC /* Products */,
-				3B7EAFA42D7BACD304A81387 /* Frameworks */,
-				F29AE2AB740698AE60BE2ADA /* Pods */,
+				B97883812224BD5500674A86 /* BabySelfie */,
+				B97883802224BD5500674A86 /* Products */,
+				6F0D3EAC495530D3FC66FA03 /* Pods */,
+				74C3ADF5A89AE55661AEA6E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		68ACD2671CAAF78C005859BC /* Products */ = {
+		B97883802224BD5500674A86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68ACD2661CAAF78C005859BC /* BabySelfie.app */,
+				B978837F2224BD5500674A86 /* BabySelfie.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		68ACD2681CAAF78C005859BC /* BabySelfie */ = {
+		B97883812224BD5500674A86 /* BabySelfie */ = {
 			isa = PBXGroup;
 			children = (
-				68489F731CADA33700360E1C /* Config */,
-				68ACD2AD1CAB0DE0005859BC /* Resources */,
-				68ACD2981CAAFC1E005859BC /* ViewControllers */,
-				68ACD26D1CAAF78C005859BC /* Main.storyboard */,
-				686A13591CAC08FF00C43693 /* LaunchScreen.storyboard */,
-				68ACD2AC1CAB0DC2005859BC /* Supporting Files */,
+				B97883982224BF1000674A86 /* Config */,
+				B97883972224BEEA00674A86 /* ViewsControllers */,
+				B97883962224BEE500674A86 /* Views */,
+				B97883952224BED800674A86 /* Resources */,
+				B97883942224BECC00674A86 /* Supporting Files */,
 			);
 			path = BabySelfie;
 			sourceTree = "<group>";
 		};
-		68ACD2981CAAFC1E005859BC /* ViewControllers */ = {
+		B97883942224BECC00674A86 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				68E98A1F1CBD999A00D83DE7 /* Video */,
-				68E98A191CBC1D6300D83DE7 /* Menu */,
-				68B02B0F1CB82AC600810A8B /* Gallery */,
-				68B02B0A1CB6A4A600810A8B /* TakePicture */,
-				68D4FB221CB42378008BD290 /* Frequence */,
-				68489F741CADA3D100360E1C /* Login */,
-				68489F6C1CAD9B0D00360E1C /* BaseViews */,
+				B97883992224C10000674A86 /* GoogleService-Info.plist */,
+				B978838E2224BD5600674A86 /* Info.plist */,
 			);
-			name = ViewControllers;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		68ACD2A01CAB04BB005859BC /* Dependencies */ = {
+		B97883952224BED800674A86 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				68E98A221CBE869900D83DE7 /* CEMovieMaker */,
-				68ACD2A11CAB04C1005859BC /* Facebook */,
+				B978839D2224C3D600674A86 /* Default-568h@2x.png */,
+				B97883892224BD5600674A86 /* Assets.xcassets */,
+				B97883A92224CEA400674A86 /* Localizable.strings */,
 			);
-			name = Dependencies;
-			path = BabySelfie;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		68ACD2A11CAB04C1005859BC /* Facebook */ = {
+		B97883962224BEE500674A86 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				68ACD2A21CAB04DB005859BC /* FBSDKCoreKit.framework */,
-				68ACD2A31CAB04DB005859BC /* FBSDKLoginKit.framework */,
-				68ACD2A41CAB04DB005859BC /* FBSDKShareKit.framework */,
+				B97883862224BD5500674A86 /* Main.storyboard */,
 			);
-			name = Facebook;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		68ACD2AC1CAB0DC2005859BC /* Supporting Files */ = {
+		B97883972224BEEA00674A86 /* ViewsControllers */ = {
 			isa = PBXGroup;
 			children = (
-				68ACD2B11CAB1007005859BC /* BabySelfie-Bridging-Header.h */,
-				68ACD2751CAAF78C005859BC /* Info.plist */,
+				B97883A12224CC8B00674A86 /* Login */,
 			);
-			name = "Supporting Files";
+			path = ViewsControllers;
 			sourceTree = "<group>";
 		};
-		68ACD2AD1CAB0DE0005859BC /* Resources */ = {
+		B97883982224BF1000674A86 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				6863D10F1CAC0FD60078436F /* Images.xcassets */,
+				B97883822224BD5500674A86 /* AppDelegate.swift */,
+				B978839F2224CA9C00674A86 /* Utils.swift */,
 			);
-			name = Resources;
+			path = Config;
 			sourceTree = "<group>";
 		};
-		68B02B0A1CB6A4A600810A8B /* TakePicture */ = {
+		B97883A12224CC8B00674A86 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				68B02B0B1CB6A4BA00810A8B /* BSTakePictureViewController.swift */,
-				68B02B0D1CB7F89300810A8B /* BSPhotoAlbum.swift */,
+				B97883A22224CC9E00674A86 /* LoginViewController.swift */,
 			);
-			name = TakePicture;
-			sourceTree = "<group>";
-		};
-		68B02B0F1CB82AC600810A8B /* Gallery */ = {
-			isa = PBXGroup;
-			children = (
-				68B02B101CB82ADA00810A8B /* BSGalleryViewController.swift */,
-				68B02B121CB82E0400810A8B /* BSPhotoCollectionViewCell.swift */,
-			);
-			name = Gallery;
-			sourceTree = "<group>";
-		};
-		68D4FB221CB42378008BD290 /* Frequence */ = {
-			isa = PBXGroup;
-			children = (
-				68D4FB231CB42396008BD290 /* BSFrequenceViewController.swift */,
-				B44ADB361D20AA3300E3D054 /* Util.swift */,
-			);
-			name = Frequence;
-			sourceTree = "<group>";
-		};
-		68E98A191CBC1D6300D83DE7 /* Menu */ = {
-			isa = PBXGroup;
-			children = (
-				68E98A1A1CBC1D7A00D83DE7 /* BSMenuViewController.swift */,
-				68E98A1C1CBC1EAB00D83DE7 /* BSItemMenuTableViewCell.swift */,
-			);
-			name = Menu;
-			sourceTree = "<group>";
-		};
-		68E98A1F1CBD999A00D83DE7 /* Video */ = {
-			isa = PBXGroup;
-			children = (
-				68E98A201CBD99C000D83DE7 /* BSVideoViewController.swift */,
-			);
-			name = Video;
-			sourceTree = "<group>";
-		};
-		68E98A221CBE869900D83DE7 /* CEMovieMaker */ = {
-			isa = PBXGroup;
-			children = (
-				68E98A231CBE86C400D83DE7 /* CEMovieMaker.h */,
-				68E98A241CBE86C400D83DE7 /* CEMovieMaker.m */,
-			);
-			name = CEMovieMaker;
-			sourceTree = "<group>";
-		};
-		F29AE2AB740698AE60BE2ADA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6A8B495A6BF0EB2ECBBD4502 /* Pods-BabySelfie.debug.xcconfig */,
-				4F7278329FE3C181544B7FF0 /* Pods-BabySelfie.release.xcconfig */,
-			);
-			name = Pods;
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		68ACD2651CAAF78C005859BC /* BabySelfie */ = {
+		B978837E2224BD5500674A86 /* BabySelfie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68ACD28E1CAAF78C005859BC /* Build configuration list for PBXNativeTarget "BabySelfie" */;
+			buildConfigurationList = B97883912224BD5600674A86 /* Build configuration list for PBXNativeTarget "BabySelfie" */;
 			buildPhases = (
-				F915F8E909AF93D2C532C21F /* [CP] Check Pods Manifest.lock */,
-				68ACD2621CAAF78C005859BC /* Sources */,
-				68ACD2631CAAF78C005859BC /* Frameworks */,
-				68ACD2641CAAF78C005859BC /* Resources */,
-				1B37CAF1836AC61FD683477A /* [CP] Embed Pods Frameworks */,
-				40FB8D248F8C09E2F2AA32D3 /* [CP] Copy Pods Resources */,
+				F43C80751DD9E6029F8B6908 /* [CP] Check Pods Manifest.lock */,
+				B978837B2224BD5500674A86 /* Sources */,
+				B978837C2224BD5500674A86 /* Frameworks */,
+				B978837D2224BD5500674A86 /* Resources */,
+				128B4E621BC79317288AA144 /* [CP] Embed Pods Frameworks */,
+				25907D72B3857EDFEB331878 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -305,166 +167,205 @@
 			);
 			name = BabySelfie;
 			productName = BabySelfie;
-			productReference = 68ACD2661CAAF78C005859BC /* BabySelfie.app */;
+			productReference = B978837F2224BD5500674A86 /* BabySelfie.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		68ACD25E1CAAF78C005859BC /* Project object */ = {
+		B97883772224BD5500674A86 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = BS;
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Juliana Lacerda";
 				TargetAttributes = {
-					68ACD2651CAAF78C005859BC = {
-						CreatedOnToolsVersion = 7.3;
+					B978837E2224BD5500674A86 = {
+						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 68ACD2611CAAF78C005859BC /* Build configuration list for PBXProject "BabySelfie" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = B978837A2224BD5500674A86 /* Build configuration list for PBXProject "BabySelfie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
-			mainGroup = 68ACD25D1CAAF78C005859BC;
-			productRefGroup = 68ACD2671CAAF78C005859BC /* Products */;
+			mainGroup = B97883762224BD5500674A86;
+			productRefGroup = B97883802224BD5500674A86 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				68ACD2651CAAF78C005859BC /* BabySelfie */,
+				B978837E2224BD5500674A86 /* BabySelfie */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		68ACD2641CAAF78C005859BC /* Resources */ = {
+		B978837D2224BD5500674A86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				686A135A1CAC08FF00C43693 /* LaunchScreen.storyboard in Resources */,
-				6863D1101CAC0FD60078436F /* Images.xcassets in Resources */,
-				68ACD26F1CAAF78C005859BC /* Main.storyboard in Resources */,
+				B97883A72224CEA400674A86 /* Localizable.strings in Resources */,
+				B978838A2224BD5600674A86 /* Assets.xcassets in Resources */,
+				B978839E2224C3D600674A86 /* Default-568h@2x.png in Resources */,
+				B97883882224BD5500674A86 /* Main.storyboard in Resources */,
+				B978839A2224C10000674A86 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1B37CAF1836AC61FD683477A /* [CP] Embed Pods Frameworks */ = {
+		128B4E621BC79317288AA144 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BabySelfie/Pods-BabySelfie-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/CircleSlider/CircleSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabySelfie/Pods-BabySelfie-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		40FB8D248F8C09E2F2AA32D3 /* [CP] Copy Pods Resources */ = {
+		25907D72B3857EDFEB331878 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BabySelfie/Pods-BabySelfie-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabySelfie/Pods-BabySelfie-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F915F8E909AF93D2C532C21F /* [CP] Check Pods Manifest.lock */ = {
+		F43C80751DD9E6029F8B6908 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabySelfie-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		68ACD2621CAAF78C005859BC /* Sources */ = {
+		B978837B2224BD5500674A86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6855A8D01CC160A1004F5E25 /* BSEditUserViewController.swift in Sources */,
-				68E98A1B1CBC1D7A00D83DE7 /* BSMenuViewController.swift in Sources */,
-				68D4FB241CB42396008BD290 /* BSFrequenceViewController.swift in Sources */,
-				B44ADB371D20AA3300E3D054 /* Util.swift in Sources */,
-				68B02B0C1CB6A4BA00810A8B /* BSTakePictureViewController.swift in Sources */,
-				68B02B131CB82E0400810A8B /* BSPhotoCollectionViewCell.swift in Sources */,
-				68E98A1D1CBC1EAB00D83DE7 /* BSItemMenuTableViewCell.swift in Sources */,
-				68E98A211CBD99C000D83DE7 /* BSVideoViewController.swift in Sources */,
-				68489F721CADA11900360E1C /* BSViewController.swift in Sources */,
-				68489F6E1CAD9B2B00360E1C /* BSCheckBox.swift in Sources */,
-				68B02B111CB82ADA00810A8B /* BSGalleryViewController.swift in Sources */,
-				68ACD26A1CAAF78C005859BC /* AppDelegate.swift in Sources */,
-				68B02B0E1CB7F89300810A8B /* BSPhotoAlbum.swift in Sources */,
-				68E98A251CBE86C400D83DE7 /* CEMovieMaker.m in Sources */,
-				68489F701CAD9CB600360E1C /* BSTextField.swift in Sources */,
-				68ACD2AB1CAB0B9C005859BC /* BSLoginViewController.swift in Sources */,
+				B97883A32224CC9E00674A86 /* LoginViewController.swift in Sources */,
+				B97883832224BD5500674A86 /* AppDelegate.swift in Sources */,
+				B97883A02224CA9C00674A86 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		68ACD26D1CAAF78C005859BC /* Main.storyboard */ = {
+		B97883862224BD5500674A86 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				68ACD26E1CAAF78C005859BC /* Base */,
+				B97883872224BD5500674A86 /* Base */,
+				B97883A62224CE7D00674A86 /* pt-BR */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B97883A92224CEA400674A86 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B97883A82224CEA400674A86 /* en */,
+				B97883AA2224CEA800674A86 /* pt-BR */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		68ACD28C1CAAF78C005859BC /* Debug */ = {
+		B978838F2224BD5600674A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -478,38 +379,55 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		68ACD28D1CAAF78C005859BC /* Release */ = {
+		B97883902224BD5600674A86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -517,75 +435,80 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		68ACD28F1CAAF78C005859BC /* Debug */ = {
+		B97883922224BD5600674A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A8B495A6BF0EB2ECBBD4502 /* Pods-BabySelfie.debug.xcconfig */;
+			baseConfigurationReference = 7D04D620B3C34A13A9D35D27 /* Pods-BabySelfie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7Z5QZ278W;
+				INFOPLIST_FILE = "$(SRCROOT)/BabySelfie/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/BabySelfie",
-					"$(PROJECT_DIR)",
+					"@executable_path/Frameworks",
 				);
-				INFOPLIST_FILE = BabySelfie/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.BabySelfie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "BabySelfie-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		68ACD2901CAAF78C005859BC /* Release */ = {
+		B97883932224BD5600674A86 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F7278329FE3C181544B7FF0 /* Pods-BabySelfie.release.xcconfig */;
+			baseConfigurationReference = 00DFFC1DEBE3F0C4542FA328 /* Pods-BabySelfie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7Z5QZ278W;
+				INFOPLIST_FILE = "$(SRCROOT)/BabySelfie/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/BabySelfie",
-					"$(PROJECT_DIR)",
+					"@executable_path/Frameworks",
 				);
-				INFOPLIST_FILE = BabySelfie/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.BabySelfie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "BabySelfie-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68ACD2611CAAF78C005859BC /* Build configuration list for PBXProject "BabySelfie" */ = {
+		B978837A2224BD5500674A86 /* Build configuration list for PBXProject "BabySelfie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68ACD28C1CAAF78C005859BC /* Debug */,
-				68ACD28D1CAAF78C005859BC /* Release */,
+				B978838F2224BD5600674A86 /* Debug */,
+				B97883902224BD5600674A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68ACD28E1CAAF78C005859BC /* Build configuration list for PBXNativeTarget "BabySelfie" */ = {
+		B97883912224BD5600674A86 /* Build configuration list for PBXNativeTarget "BabySelfie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68ACD28F1CAAF78C005859BC /* Debug */,
-				68ACD2901CAAF78C005859BC /* Release */,
+				B97883922224BD5600674A86 /* Debug */,
+				B97883932224BD5600674A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 68ACD25E1CAAF78C005859BC /* Project object */;
+	rootObject = B97883772224BD5500674A86 /* Project object */;
 }
