@@ -36,8 +36,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
-    
-    
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         
         let sourceApplication = options[UIApplication.OpenURLOptionsKey.sourceApplication] as! String?
@@ -84,8 +82,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func createNotification() {
         
-        let userDefaults = UserDefaults.standard
-        if let frequence = userDefaults.value(forKey: "frequence") {
+        if let frequence = ProfileManager.getFrequence() {
         
             let content = UNMutableNotificationContent()
             content.title = NSLocalizedString("notification_title", comment: "")
@@ -98,7 +95,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             var components = gregorian.dateComponents([.year, .month, .day, .hour, .minute, .second], from: today)
             
             // Change the time to value saved
-            components.day = getFrequenceDays(frequence: frequence as! String)
+            components.day = getFrequenceDays(frequence)
             
             let date = gregorian.date(from: components)!
             

@@ -8,3 +8,57 @@
 
 "notification_title" = "Preparar a foto!";
 "notification_body" = "Olá! Vamos tirar uma foto do seu bebê?";
+
+"field_email" = "Email";
+"field_pass" = "Senha";
+"field_name" = "Nome";
+"field_repass" = "Confirmar senha";
+
+"btn_login" = "Login";
+"btn_facebook" = "Login com Facebook";
+"btn_register" = "Cadastrar-se";
+"btn_forgot" = "Esqueci a senha";
+"btn_newaccount" = "Não tem uma conta? Cadastre-se";
+"btn_cancel" = "Cancelar";
+"btn_start" = "Iniciar";
+"btn_confirm" = "Confirmar";
+"btn_takeother" = "Tirar outra";
+
+"register_title" = "Preencha suas informações abaixo.";
+
+"valid_pass" = "Repetir a senha corretamente!";
+"valid_count_pass" = "Preencha o campo SENHA com no mínimo 6 caracteres!";
+"valid_email" = "Preencha o campo EMAIL corretamente!";
+"valid_name" = "Preencha o campo NOME!";
+
+"alert_title" = "Atenção";
+"alert_email_needed" = "Preencha o campo EMAIL para receber sua nova senha.";
+
+"alert_user_invalid" = "Usuário inválido! Tente novamente.";
+"alert_email_invalid" = "E-mail inválido! Tente novamente.";
+"alert_pass_invalid" = "Senha inválida! Tente novamente.";
+"alert_user_exist" = "Esse email já existe! Por favor, tente novamente.";
+"alert_frequence" = "Defina sua frequência!";
+
+"error_resend_email" = "Erro! Tente novamente.";
+"success_resend_email" = "Nova senha enviada! Verifique seu e-mail.";
+
+"failed_register" = "Falha ao registrar!";
+"failed_login" = "Falha ao logar!";
+
+"notification_title" = "Não é possível agendar";
+"notification_text"= "Não temos permissão para agendar notificações.";
+"notification_settings" = "Configurações";
+
+"settings_title" = "Com qual frequência você quer tirar fotos do bebê?";
+
+"freq_day" = "DIA";
+"freq_days" = "DIAS";
+"freq_week" = "SEMANA";
+"freq_weeks" = "SEMANAS";
+
+"camera_permission_title" = "Desculpe :(";
+"camera_permission_text" = "Mas você poderia, por favor, conceder permissão para a câmera dentro das configurações do dispositivo";
+
+"camera_rejected_title" = "PORQUE?";
+"camera_rejected_text" = "Câmera é o principal recurso do nosso aplicativo";

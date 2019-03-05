@@ -16,6 +16,18 @@
 		B97883A02224CA9C00674A86 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978839F2224CA9C00674A86 /* Utils.swift */; };
 		B97883A32224CC9E00674A86 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97883A22224CC9E00674A86 /* LoginViewController.swift */; };
 		B97883A72224CEA400674A86 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B97883A92224CEA400674A86 /* Localizable.strings */; };
+		B97883B82225FCF700674A86 /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97883B72225FCF700674A86 /* CheckBoxButton.swift */; };
+		B97883BE2227771C00674A86 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97883BD2227771B00674A86 /* FirebaseManager.swift */; };
+		B97883C62227787200674A86 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97883C52227787200674A86 /* Profile.swift */; };
+		B97883CC2227890F00674A86 /* FrequenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97883CB2227890F00674A86 /* FrequenceViewController.swift */; };
+		B97883CE2227893500674A86 /* TakePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97883CD2227893500674A86 /* TakePictureViewController.swift */; };
+		B97883D22227896E00674A86 /* MakeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97883D12227896E00674A86 /* MakeVideoViewController.swift */; };
+		B97883D42227898100674A86 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97883D32227898100674A86 /* GalleryViewController.swift */; };
+		B97883D622278AA600674A86 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97883D522278AA600674A86 /* ProfileManager.swift */; };
+		B97883D9222DF99200674A86 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97883D8222DF99200674A86 /* MenuViewController.swift */; };
+		B97883DB222E057C00674A86 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97883DA222E057C00674A86 /* UIViewController.swift */; };
+		B97883DD222E059300674A86 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97883DC222E059300674A86 /* UITextField.swift */; };
+		B97883DF222E05AB00674A86 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97883DE222E05AB00674A86 /* UserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +46,18 @@
 		B97883A62224CE7D00674A86 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
 		B97883A82224CEA400674A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B97883AA2224CEA800674A86 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B97883B72225FCF700674A86 /* CheckBoxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
+		B97883BD2227771B00674A86 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		B97883C52227787200674A86 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		B97883CB2227890F00674A86 /* FrequenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequenceViewController.swift; sourceTree = "<group>"; };
+		B97883CD2227893500674A86 /* TakePictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePictureViewController.swift; sourceTree = "<group>"; };
+		B97883D12227896E00674A86 /* MakeVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeVideoViewController.swift; sourceTree = "<group>"; };
+		B97883D32227898100674A86 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		B97883D522278AA600674A86 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		B97883D8222DF99200674A86 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B97883DA222E057C00674A86 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		B97883DC222E059300674A86 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		B97883DE222E05AB00674A86 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +110,12 @@
 		B97883812224BD5500674A86 /* BabySelfie */ = {
 			isa = PBXGroup;
 			children = (
-				B97883982224BF1000674A86 /* Config */,
-				B97883972224BEEA00674A86 /* ViewsControllers */,
+				B97883C12227779F00674A86 /* Network */,
+				B97883C02227778B00674A86 /* Models */,
+				B97883BF2227778200674A86 /* ViewModels */,
+				B97883972224BEEA00674A86 /* Controllers */,
 				B97883962224BEE500674A86 /* Views */,
+				B97883BC2227763C00674A86 /* Classes */,
 				B97883952224BED800674A86 /* Resources */,
 				B97883942224BECC00674A86 /* Supporting Files */,
 			);
@@ -122,21 +149,26 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		B97883972224BEEA00674A86 /* ViewsControllers */ = {
+		B97883972224BEEA00674A86 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B97883982224BF1000674A86 /* AppDelegate */,
+				B97883D7222DF97E00674A86 /* Menu */,
+				B97883D02227894400674A86 /* Gallery */,
+				B97883CF2227893C00674A86 /* MakeVideo */,
+				B97883B12225F38B00674A86 /* TakePicture */,
+				B97883B02225F38400674A86 /* Frequence */,
 				B97883A12224CC8B00674A86 /* Login */,
 			);
-			path = ViewsControllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		B97883982224BF1000674A86 /* Config */ = {
+		B97883982224BF1000674A86 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
 				B97883822224BD5500674A86 /* AppDelegate.swift */,
-				B978839F2224CA9C00674A86 /* Utils.swift */,
 			);
-			path = Config;
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		B97883A12224CC8B00674A86 /* Login */ = {
@@ -145,6 +177,98 @@
 				B97883A22224CC9E00674A86 /* LoginViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		B97883AB2225F0FC00674A86 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B97883DA222E057C00674A86 /* UIViewController.swift */,
+				B97883DC222E059300674A86 /* UITextField.swift */,
+				B97883DE222E05AB00674A86 /* UserDefaults.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B97883B02225F38400674A86 /* Frequence */ = {
+			isa = PBXGroup;
+			children = (
+				B97883CB2227890F00674A86 /* FrequenceViewController.swift */,
+			);
+			path = Frequence;
+			sourceTree = "<group>";
+		};
+		B97883B12225F38B00674A86 /* TakePicture */ = {
+			isa = PBXGroup;
+			children = (
+				B97883CD2227893500674A86 /* TakePictureViewController.swift */,
+			);
+			path = TakePicture;
+			sourceTree = "<group>";
+		};
+		B97883B62225FCCE00674A86 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B97883B72225FCF700674A86 /* CheckBoxButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B97883BC2227763C00674A86 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B97883BD2227771B00674A86 /* FirebaseManager.swift */,
+				B97883D522278AA600674A86 /* ProfileManager.swift */,
+				B978839F2224CA9C00674A86 /* Utils.swift */,
+				B97883AB2225F0FC00674A86 /* Extensions */,
+				B97883B62225FCCE00674A86 /* Components */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B97883BF2227778200674A86 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B97883C02227778B00674A86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B97883C52227787200674A86 /* Profile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B97883C12227779F00674A86 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B97883CF2227893C00674A86 /* MakeVideo */ = {
+			isa = PBXGroup;
+			children = (
+				B97883D12227896E00674A86 /* MakeVideoViewController.swift */,
+			);
+			path = MakeVideo;
+			sourceTree = "<group>";
+		};
+		B97883D02227894400674A86 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				B97883D32227898100674A86 /* GalleryViewController.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		B97883D7222DF97E00674A86 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				B97883D8222DF99200674A86 /* MenuViewController.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,9 +421,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B97883D9222DF99200674A86 /* MenuViewController.swift in Sources */,
 				B97883A32224CC9E00674A86 /* LoginViewController.swift in Sources */,
+				B97883BE2227771C00674A86 /* FirebaseManager.swift in Sources */,
+				B97883DD222E059300674A86 /* UITextField.swift in Sources */,
+				B97883DF222E05AB00674A86 /* UserDefaults.swift in Sources */,
+				B97883D622278AA600674A86 /* ProfileManager.swift in Sources */,
+				B97883CE2227893500674A86 /* TakePictureViewController.swift in Sources */,
+				B97883CC2227890F00674A86 /* FrequenceViewController.swift in Sources */,
+				B97883D42227898100674A86 /* GalleryViewController.swift in Sources */,
+				B97883B82225FCF700674A86 /* CheckBoxButton.swift in Sources */,
 				B97883832224BD5500674A86 /* AppDelegate.swift in Sources */,
+				B97883D22227896E00674A86 /* MakeVideoViewController.swift in Sources */,
+				B97883C62227787200674A86 /* Profile.swift in Sources */,
 				B97883A02224CA9C00674A86 /* Utils.swift in Sources */,
+				B97883DB222E057C00674A86 /* UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

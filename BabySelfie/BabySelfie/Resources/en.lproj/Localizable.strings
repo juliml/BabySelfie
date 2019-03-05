@@ -8,3 +8,57 @@
 
 "notification_title" = "Prepare the photo!";
 "notification_body" = "Hello! Let's take a picture of your baby?";
+
+"field_email" = "Email";
+"field_pass" = "Password";
+"field_name" = "Name";
+"field_repass" = "Confirm Password";
+
+"btn_login" = "Login";
+"btn_facebook" = "Login with Facebook";
+"btn_register" = "Register";
+"btn_forgot" = "I forgot the password";
+"btn_newaccount" = "Do not have an account? Register";
+"btn_cancel" = "Cancel";
+"btn_start" = "Start";
+"btn_confirm" = "Confirm";
+"btn_takeother" = "Take another";
+
+"register_title" = "Fill in your information below.";
+
+"valid_pass" = "Repeat password correctly!";
+"valid_count_pass" = "Fill in the PASSWORD field with at least 6 characters!";
+"valid_email" = "Fill in the E-MAIL field correctly!";
+"valid_name" = "Fill in the field NAME!";
+
+"alert_title" = "Attention";
+"alert_email_needed" = "Fill in the EMAIL field to receive your new password.";
+
+"alert_user_invalid" = "Invalid user! Please try again.";
+"alert_email_invalid" = "Invalid email! Please try again.";
+"alert_pass_invalid" = "Invalid password! Please try again.";
+"alert_user_exist" = "This email already exists! Please try again.";
+"alert_frequence" = "Set your frequency!";
+
+"error_resend_email" = "Error! Please try again.";
+"success_resend_email" = "New password sent! Check your email.";
+
+"failed_register" = "Failed to register!";
+"failed_login" = "Failed to login!";
+
+"notification_title" = "Can not schedule";
+"notification_text" = "We are not allowed to schedule notifications.";
+"notification_settings" = "Settings";
+
+"settings_title" = "How often do you want to take pictures of the baby?";
+
+"freq_day" = "DAY";
+"freq_days" = "DAYS";
+"freq_week" = "WEEK";
+"freq_weeks" = "WEEKS";
+
+"camera_permission_title" = "Sorry :(";
+"camera_permission_text" = "But could you please grant permission for camera within device settings";
+
+"camera_rejected_title" = "WHY?";
+"camera_rejected_text" = "Camera it is the main feature of our application";
